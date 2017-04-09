@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Gyrix-iot-test
+  host: Gyrix-iot-test
+  disk_quota: 1024M
+  services:
+  - Gyrix-iot-test-cloudantNoSQLDB
+  - Gyrix-iot-test-iotf-service
